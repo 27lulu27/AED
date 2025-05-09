@@ -8,7 +8,7 @@ First and second projects in C++ for the Algorithms and Data Structures curricul
 - Course Link: https://sigarra.up.pt/feup/pt/ucurr_geral.ficha_uc_view?pv_ocorrencia_id=520316
 - Description: [Project Description 1 - L.EIC Schedules](project1/Project1Description.pdf); [Project Description 2 - Air Travel Flight Management System](project2/Project2Description.pdf)
 
-## Authors:
+## Authors
 - Luana Lima, up202206845
 - Lucas Greco, up202208296
 - Luís Cordeiro, up202205425
