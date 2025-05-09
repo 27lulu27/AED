@@ -1,0 +1,113 @@
+\hypertarget{classSystem}{}\doxysection{System Class Reference}
+\label{classSystem}\index{System@{System}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSystem_ae317936c9bcf1374d61745572e0f2f8a}\label{classSystem_ae317936c9bcf1374d61745572e0f2f8a}} 
+\mbox{\hyperlink{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{System}} ()
+\begin{DoxyCompactList}\small\item\em O construtor faz 3 chamadas, cada uma faz o parsing da informação dos ficheiros fornecidos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSystem_aafa9a939f5827665221bd68dc7494df8}{read\+Airlines}} (const string \&filename)
+\begin{DoxyCompactList}\small\item\em Faz o parsing das companhias aereas. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSystem_ae619bd7f54e9e3364f4f32c4a5e7b8ea}{read\+Airports}} (const string \&filename)
+\begin{DoxyCompactList}\small\item\em Faz o parsing dos aeroportos. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSystem_a09beb5874584d10e157c803f5564c383}{read\+Flights}} (const string \&filename)
+\begin{DoxyCompactList}\small\item\em Faz o parsing dos voos entre aeroportos. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_a4df964784ebbc5e6643e71d86630143c}\label{classSystem_a4df964784ebbc5e6643e71d86630143c}} 
+void {\bfseries Fast\+Connection} (const string \&source, const string \&dest)
+\item 
+\mbox{\Hypertarget{classSystem_a9f48e232999e63fc6c2b6313794d5a40}\label{classSystem_a9f48e232999e63fc6c2b6313794d5a40}} 
+void {\bfseries showgraph} ()
+\item 
+\mbox{\Hypertarget{classSystem_aa9fc19822cb3aca6f4760e11da996e23}\label{classSystem_aa9fc19822cb3aca6f4760e11da996e23}} 
+void {\bfseries Numberof\+AandF} ()
+\item 
+\mbox{\Hypertarget{classSystem_acd6c09fdbdf6a21bb3b0bff8722e357a}\label{classSystem_acd6c09fdbdf6a21bb3b0bff8722e357a}} 
+void {\bfseries Numberof\+Fof\+Air} (string code)
+\item 
+\mbox{\Hypertarget{classSystem_a1a29c599e62dbf00e38d5182c1b25ec5}\label{classSystem_a1a29c599e62dbf00e38d5182c1b25ec5}} 
+void {\bfseries Fast\+Connection\+City} (const std\+::string \&source, const std\+::string \&dest)
+\item 
+\mbox{\Hypertarget{classSystem_aef5629a8bd5d14b6accd8d04b0458a4f}\label{classSystem_aef5629a8bd5d14b6accd8d04b0458a4f}} 
+void {\bfseries Numberof\+Fof\+City} (string city)
+\item 
+\mbox{\Hypertarget{classSystem_a8b8dc7a24eb5bca7e46588488e85a40c}\label{classSystem_a8b8dc7a24eb5bca7e46588488e85a40c}} 
+void {\bfseries Numberof\+Fof\+Airline} (string airlinecode)
+\item 
+\mbox{\Hypertarget{classSystem_ac44982f79afeec47cf9116eb894209cb}\label{classSystem_ac44982f79afeec47cf9116eb894209cb}} 
+void {\bfseries Numberof\+DContriesairport} (string code)
+\item 
+\mbox{\Hypertarget{classSystem_a1ed17fa869136bfb8fdafde612c4b5de}\label{classSystem_a1ed17fa869136bfb8fdafde612c4b5de}} 
+void {\bfseries Numberof\+DContriescity} (string city)
+\item 
+\mbox{\Hypertarget{classSystem_a05ae4ba153eac5d68cd4a1a693922d65}\label{classSystem_a05ae4ba153eac5d68cd4a1a693922d65}} 
+void {\bfseries avaliabledestinations} (string code, int num)
+\item 
+\mbox{\Hypertarget{classSystem_aecad62e2b25d7a351526f1fa9b9859a0}\label{classSystem_aecad62e2b25d7a351526f1fa9b9859a0}} 
+void {\bfseries reachabledestinationsmax} (string code, int max, int num)
+\item 
+\mbox{\Hypertarget{classSystem_a220a1e4652ff4072a7975e5554acb554}\label{classSystem_a220a1e4652ff4072a7975e5554acb554}} 
+void {\bfseries maxdistance} ()
+\item 
+\mbox{\Hypertarget{classSystem_ae332459ebc45383216a0cfc535ad56c4}\label{classSystem_ae332459ebc45383216a0cfc535ad56c4}} 
+void {\bfseries topairports} (int k)
+\item 
+\mbox{\Hypertarget{classSystem_a40e4a3da72e6a4cf5a1a30baf66f971e}\label{classSystem_a40e4a3da72e6a4cf5a1a30baf66f971e}} 
+void {\bfseries essentialairports} ()
+\item 
+\mbox{\Hypertarget{classSystem_acdb80cb531f108353d414f0a1dfcd2c4}\label{classSystem_acdb80cb531f108353d414f0a1dfcd2c4}} 
+void {\bfseries Fast\+Connection\+Cord} (string source, double lat, double lon)
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSystem_aafa9a939f5827665221bd68dc7494df8}\label{classSystem_aafa9a939f5827665221bd68dc7494df8}} 
+\index{System@{System}!readAirlines@{readAirlines}}
+\index{readAirlines@{readAirlines}!System@{System}}
+\doxysubsubsection{\texorpdfstring{readAirlines()}{readAirlines()}}
+{\footnotesize\ttfamily void System\+::read\+Airlines (\begin{DoxyParamCaption}\item[{const string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Faz o parsing das companhias aereas. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & = nome do ficheiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSystem_ae619bd7f54e9e3364f4f32c4a5e7b8ea}\label{classSystem_ae619bd7f54e9e3364f4f32c4a5e7b8ea}} 
+\index{System@{System}!readAirports@{readAirports}}
+\index{readAirports@{readAirports}!System@{System}}
+\doxysubsubsection{\texorpdfstring{readAirports()}{readAirports()}}
+{\footnotesize\ttfamily void System\+::read\+Airports (\begin{DoxyParamCaption}\item[{const string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Faz o parsing dos aeroportos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & = nome do ficheiro \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSystem_a09beb5874584d10e157c803f5564c383}\label{classSystem_a09beb5874584d10e157c803f5564c383}} 
+\index{System@{System}!readFlights@{readFlights}}
+\index{readFlights@{readFlights}!System@{System}}
+\doxysubsubsection{\texorpdfstring{readFlights()}{readFlights()}}
+{\footnotesize\ttfamily void System\+::read\+Flights (\begin{DoxyParamCaption}\item[{const string \&}]{filename }\end{DoxyParamCaption})}
+
+
+
+Faz o parsing dos voos entre aeroportos. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em filename} & = nome do ficheiro \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/System.\+h\item 
+src/System.\+cpp\end{DoxyCompactItemize}

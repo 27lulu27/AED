@@ -1,0 +1,45 @@
+Passo 1: Instale o Doxygen
+
+Se você ainda não instalou o Doxygen, faça isso a partir do site oficial: https://www.doxygen.nl/download.html
+
+
+
+Passo 2: Adicione Comentários Doxygen ao seu Código C/C++
+Use os comentários Doxygen no seu código C/C++ para descrever funções, classes, variáveis e outros elementos do seu código. Você pode usar dois estilos comuns de comentários:
+Para comentários de uma única linha, use três barras:
+
+EXEMPLO:
+/// Este é um comentário Doxygen de uma única linha.
+Para comentários de várias linhas, use barras e asteriscos:
+
+EXEMPLO:
+/**
+ * Este é um comentário Doxygen de várias linhas.
+ * Ele pode incluir informações detalhadas sobre funções, classes, variáveis, etc.
+ */
+Além das descrições, você pode adicionar tags Doxygen para especificar parâmetros, valores de retorno, exemplos, etc. Por exemplo:
+
+EXEMPLO:
+/**
+ * @brief Esta função faz algo.
+ *
+ * @param parametro1 Descrição do parâmetro 1.
+ * @param parametro2 Descrição do parâmetro 2.
+ * @return Descrição do valor de retorno.
+ */
+int MinhaFuncao(int parametro1, int parametro2);
+
+
+
+Passo 3: Gere a Documentação
+No terminal, navegue até o diretório onde está localizado o seu arquivo Doxyfile.
+Execute o comando a seguir para gerar a documentação com base nas configurações do arquivo Doxyfile:
+Copy code
+doxygen myproject.cfg
+
+
+
+Passo 4: Visualize a Documentação Gerada
+Após a conclusão da geração, você encontrará um diretório de saída especificado no arquivo Doxyfile (por exemplo, "html" ou "latex") que contém a documentação gerada.
+Abra o arquivo index.html na pasta de saída em um navegador da web para visualizar sua documentação.
+Lembre-se de personalizar o arquivo Doxyfile para atender às necessidades específicas do seu projeto. Os comentários Doxygen em seu código irão ajudar a gerar automaticamente a documentação com base nas informações que você forneceu.

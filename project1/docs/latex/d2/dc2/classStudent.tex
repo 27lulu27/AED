@@ -1,0 +1,110 @@
+\hypertarget{classStudent}{}\doxysection{Student Class Reference}
+\label{classStudent}\index{Student@{Student}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classStudent_a44f21d241584f3d66ee5570a46148650}\label{classStudent_a44f21d241584f3d66ee5570a46148650}} 
+{\bfseries Student} (int id, std\+::string name)
+\item 
+\mbox{\Hypertarget{classStudent_a76dfd974c51d9317e410507436a20309}\label{classStudent_a76dfd974c51d9317e410507436a20309}} 
+void {\bfseries addclass} (const std\+::string \&\mbox{\hyperlink{classClass}{Class}}, const std\+::string \&uccode)
+\item 
+\mbox{\Hypertarget{classStudent_ac2060c231a9e6f02b578afd5f2dd905b}\label{classStudent_ac2060c231a9e6f02b578afd5f2dd905b}} 
+int {\bfseries get\+\_\+id} () const
+\item 
+\mbox{\Hypertarget{classStudent_a439fc5d1e6d7a0bdc33e3afcd0a99015}\label{classStudent_a439fc5d1e6d7a0bdc33e3afcd0a99015}} 
+std\+::vector$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ {\bfseries getclasses} ()
+\item 
+\mbox{\Hypertarget{classStudent_afef2be8f3228f735181a783338c3e4ba}\label{classStudent_afef2be8f3228f735181a783338c3e4ba}} 
+std\+::string {\bfseries getname} ()
+\item 
+\mbox{\Hypertarget{classStudent_a351354ea44cb69e89e804b7723d9bee0}\label{classStudent_a351354ea44cb69e89e804b7723d9bee0}} 
+bool {\bfseries has\+Class} (std\+::string c, std\+::string uccode)
+\item 
+\mbox{\Hypertarget{classStudent_ad26917cd8deadc55e578986b7cc760b9}\label{classStudent_ad26917cd8deadc55e578986b7cc760b9}} 
+int {\bfseries whichyear} ()
+\item 
+\mbox{\Hypertarget{classStudent_a73dfd23c80640712d1bc8a68104bd405}\label{classStudent_a73dfd23c80640712d1bc8a68104bd405}} 
+void {\bfseries removeclass} (const std\+::string \&classid, const std\+::string \&uccode)
+\item 
+\mbox{\Hypertarget{classStudent_a018d6a87c315abd5c6719f1967bc3f82}\label{classStudent_a018d6a87c315abd5c6719f1967bc3f82}} 
+void {\bfseries wantstochange} (std\+::string class1, std\+::string class2, std\+::string uc)
+\item 
+\mbox{\Hypertarget{classStudent_a028add02da66d4573a5ef993ed35586b}\label{classStudent_a028add02da66d4573a5ef993ed35586b}} 
+string {\bfseries get\+\_\+from\+\_\+class} () const
+\item 
+\mbox{\Hypertarget{classStudent_abad3d789e38df6f98083c24872d77ba1}\label{classStudent_abad3d789e38df6f98083c24872d77ba1}} 
+string {\bfseries get\+\_\+to\+\_\+class} () const
+\item 
+\mbox{\Hypertarget{classStudent_a10604dd08eccd9bf8a9e074d329387fc}\label{classStudent_a10604dd08eccd9bf8a9e074d329387fc}} 
+string {\bfseries get\+\_\+uccode} () const
+\item 
+\mbox{\Hypertarget{classStudent_a74c027aa56d83414b25fcae855eaa601}\label{classStudent_a74c027aa56d83414b25fcae855eaa601}} 
+int {\bfseries numberofucs} ()
+\item 
+\mbox{\Hypertarget{classStudent_ae0b7bce6d9111b48283abb994412d6b7}\label{classStudent_ae0b7bce6d9111b48283abb994412d6b7}} 
+map$<$ string, int $>$ {\bfseries get\+\_\+ucs} ()
+\item 
+\mbox{\Hypertarget{classStudent_aafc03e72cd2cf359400b2de6a4a334dd}\label{classStudent_aafc03e72cd2cf359400b2de6a4a334dd}} 
+void {\bfseries removeuc} (const string \&uccode)
+\item 
+\mbox{\Hypertarget{classStudent_a8606d860239e00dca7623d28d989b2d7}\label{classStudent_a8606d860239e00dca7623d28d989b2d7}} 
+void {\bfseries adduc} (const std\+::string \&uccode, \mbox{\hyperlink{classSystem}{System}} \&system)
+\item 
+\mbox{\Hypertarget{classStudent_a61f49095068bca764bd21b5d7b845dc7}\label{classStudent_a61f49095068bca764bd21b5d7b845dc7}} 
+void {\bfseries push\+\_\+added\+\_\+class} (std\+::string c, std\+::string uc)
+\item 
+\mbox{\Hypertarget{classStudent_a2659a2df7a3909644f6875e215ff4901}\label{classStudent_a2659a2df7a3909644f6875e215ff4901}} 
+void {\bfseries push\+\_\+removed\+\_\+class} (std\+::string c, std\+::string uc)
+\item 
+\mbox{\Hypertarget{classStudent_a981fa551edeab6943bdb82e34df296e8}\label{classStudent_a981fa551edeab6943bdb82e34df296e8}} 
+void {\bfseries push\+\_\+added\+\_\+uc} (std\+::string uc)
+\item 
+\mbox{\Hypertarget{classStudent_ac21561348535dc78850b371991a6f200}\label{classStudent_ac21561348535dc78850b371991a6f200}} 
+void {\bfseries push\+\_\+removed\+\_\+uc} (std\+::string uc)
+\item 
+\mbox{\Hypertarget{classStudent_a63f36dfd2fd699ae594413958f9ef859}\label{classStudent_a63f36dfd2fd699ae594413958f9ef859}} 
+void {\bfseries pop\+\_\+added\+\_\+class} ()
+\item 
+\mbox{\Hypertarget{classStudent_af6ca924e8786fe56871f37bd3bf87912}\label{classStudent_af6ca924e8786fe56871f37bd3bf87912}} 
+void {\bfseries pop\+\_\+removed\+\_\+class} ()
+\item 
+\mbox{\Hypertarget{classStudent_a3096b480fe7e9d05d53ecc869a537045}\label{classStudent_a3096b480fe7e9d05d53ecc869a537045}} 
+void {\bfseries pop\+\_\+added\+\_\+uc} ()
+\item 
+\mbox{\Hypertarget{classStudent_a905495fe382d251dcaaa6f42e58068f9}\label{classStudent_a905495fe382d251dcaaa6f42e58068f9}} 
+void {\bfseries pop\+\_\+removed\+\_\+uc} ()
+\item 
+\mbox{\Hypertarget{classStudent_a4870e4df121d30355127151dd118e066}\label{classStudent_a4870e4df121d30355127151dd118e066}} 
+pair$<$ std\+::string, std\+::string $>$ {\bfseries get\+\_\+top\+\_\+removed\+\_\+classes} ()
+\item 
+\mbox{\Hypertarget{classStudent_a9c23ea75568cc93a6c027e0382a9f0af}\label{classStudent_a9c23ea75568cc93a6c027e0382a9f0af}} 
+pair$<$ std\+::string, std\+::string $>$ {\bfseries get\+\_\+top\+\_\+added\+\_\+classes} ()
+\item 
+\mbox{\Hypertarget{classStudent_a8b3f3f91bf3e871dc2d6cad28004fe7a}\label{classStudent_a8b3f3f91bf3e871dc2d6cad28004fe7a}} 
+string {\bfseries get\+\_\+top\+\_\+added\+\_\+ucs} ()
+\item 
+\mbox{\Hypertarget{classStudent_a598be21cb09ad936bbc92b26b214a81b}\label{classStudent_a598be21cb09ad936bbc92b26b214a81b}} 
+string {\bfseries get\+\_\+top\+\_\+removed\+\_\+ucs} ()
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classStudent_aced2711a9850067fa09b8d62fb497997}\label{classStudent_aced2711a9850067fa09b8d62fb497997}} 
+std\+::stack$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ \mbox{\hyperlink{classStudent_aced2711a9850067fa09b8d62fb497997}{added\+\_\+classes}}
+\begin{DoxyCompactList}\small\item\em uma das stacks para armazenar as alterações das classes e das ucs \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStudent_ace8b379fff142ecb6119a1c9cbe2a185}\label{classStudent_ace8b379fff142ecb6119a1c9cbe2a185}} 
+std\+::stack$<$ std\+::pair$<$ std\+::string, std\+::string $>$ $>$ {\bfseries removed\+\_\+classes}
+\item 
+\mbox{\Hypertarget{classStudent_ab0a19db06916bba7253993f3ded970c7}\label{classStudent_ab0a19db06916bba7253993f3ded970c7}} 
+std\+::stack$<$ std\+::string $>$ \mbox{\hyperlink{classStudent_ab0a19db06916bba7253993f3ded970c7}{added\+\_\+ucs}}
+\begin{DoxyCompactList}\small\item\em uma das stacks para armazenar as alterações nas ucs; \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStudent_a95cbaca452b17e10afaaa28021d37217}\label{classStudent_a95cbaca452b17e10afaaa28021d37217}} 
+std\+::stack$<$ std\+::string $>$ {\bfseries removed\+\_\+ucs}
+\end{DoxyCompactItemize}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Student.\+h\item 
+src/Student.\+cpp\end{DoxyCompactItemize}

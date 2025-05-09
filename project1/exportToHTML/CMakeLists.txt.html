@@ -1,0 +1,33 @@
+<html>
+<head>
+<title>CMakeLists.txt</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<style type="text/css">
+.s0 { color: #ffc66d;}
+.s1 { color: #bcbec4;}
+.s2 { color: #bcbec4;}
+</style>
+</head>
+<body bgcolor="#1e1f22">
+<table CELLSPACING=0 CELLPADDING=5 COLS=1 WIDTH="100%" BGCOLOR="#606060" >
+<tr><td><center>
+<font face="Arial, Helvetica" color="#000000">
+CMakeLists.txt</font>
+</center></td></tr></table>
+<pre><span class="s0">cmake_minimum_required</span><span class="s1">(VERSION 3.26)</span>
+<span class="s0">project</span><span class="s1">(ProjetoGerenciamentoHorarios)</span>
+
+<span class="s0">set</span><span class="s1">(CMAKE_CXX_STANDARD 17)</span>
+
+<span class="s0">add_executable</span><span class="s1">(ProjetoGerenciamentoHorarios</span>
+        <span class="s1">src/main.cpp</span>
+        <span class="s1">src/UC.cpp</span>
+        <span class="s1">include/Aluno.h</span>
+        <span class="s1">include/Classe.h</span>
+        <span class="s1">include/UC.h</span>
+        <span class="s1">include/Sistemas.h</span>
+        <span class="s1">src/Aluno.cpp</span>
+        <span class="s1">src/Classe.cpp)</span>
+</pre>
+</body>
+</html>

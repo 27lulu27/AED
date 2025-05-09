@@ -1,0 +1,111 @@
+\hypertarget{classAirport}{}\doxysection{Airport Class Reference}
+\label{classAirport}\index{Airport@{Airport}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classAirport_aeae5e687aa86cbf63c39befb0264730a}{Airport}} (string code, string name, string city, string country, double latitude, double longitude)
+\begin{DoxyCompactList}\small\item\em construtor da classes aeroporto que funciona como um nó no nosso grafo \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAirport_ad1369e1d47c87e205f1718b853a66d54}\label{classAirport_ad1369e1d47c87e205f1718b853a66d54}} 
+string {\bfseries get\+Code} () const
+\item 
+\mbox{\Hypertarget{classAirport_a93efcd09328d24469d97a81e8048b776}\label{classAirport_a93efcd09328d24469d97a81e8048b776}} 
+string {\bfseries get\+Name} () const
+\item 
+\mbox{\Hypertarget{classAirport_adff088d0536ead7d1c060c385da03f32}\label{classAirport_adff088d0536ead7d1c060c385da03f32}} 
+string {\bfseries get\+City} () const
+\item 
+\mbox{\Hypertarget{classAirport_ac0ce4ad3ce71653f13b96e5d40648588}\label{classAirport_ac0ce4ad3ce71653f13b96e5d40648588}} 
+string {\bfseries get\+Country} () const
+\item 
+\mbox{\Hypertarget{classAirport_aed71ba4592b2a1401eb182931f2d3f06}\label{classAirport_aed71ba4592b2a1401eb182931f2d3f06}} 
+double {\bfseries get\+Latitude} () const
+\item 
+\mbox{\Hypertarget{classAirport_ad8cd931389b14d63e5933a1658b653a3}\label{classAirport_ad8cd931389b14d63e5933a1658b653a3}} 
+double {\bfseries get\+Longitude} () const
+\item 
+\mbox{\Hypertarget{classAirport_aff998b99eeff2f3e3f163a1b01bd5074}\label{classAirport_aff998b99eeff2f3e3f163a1b01bd5074}} 
+vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ {\bfseries get\+Adj} () const
+\item 
+void \mbox{\hyperlink{classAirport_a0750d2e206b9356bbb2f1d56cd1de2fa}{add\+Flight}} (\mbox{\hyperlink{classAirline}{Airline}} airline, string target)
+\begin{DoxyCompactList}\small\item\em Adiciona um voo ao vetor adj de modo a que este faça parte do aeroporto em questão. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classAirport_ae7d9ae178f28ab96f376f60fa1263437}\label{classAirport_ae7d9ae178f28ab96f376f60fa1263437}} 
+void {\bfseries setvisited} (const bool v)
+\item 
+\mbox{\Hypertarget{classAirport_a9c1b64f0810f2513f57a7e9aca2a0786}\label{classAirport_a9c1b64f0810f2513f57a7e9aca2a0786}} 
+bool {\bfseries isvisited} ()
+\item 
+\mbox{\Hypertarget{classAirport_aaa0ed6183a49b42b7cb7e6ff7f204987}\label{classAirport_aaa0ed6183a49b42b7cb7e6ff7f204987}} 
+int {\bfseries get\+Number\+Of\+Flights} ()
+\item 
+\mbox{\Hypertarget{classAirport_a31fda7f9cfc40450b487204a34b63e25}\label{classAirport_a31fda7f9cfc40450b487204a34b63e25}} 
+bool {\bfseries is\+Processed} ()
+\item 
+\mbox{\Hypertarget{classAirport_ab45b5c603e7e800fb74bde73044e34e9}\label{classAirport_ab45b5c603e7e800fb74bde73044e34e9}} 
+void {\bfseries set\+Processed} (const bool k)
+\item 
+\mbox{\Hypertarget{classAirport_a58a10064e055921322996b2b1c1ede71}\label{classAirport_a58a10064e055921322996b2b1c1ede71}} 
+int {\bfseries get\+Index} () const
+\item 
+\mbox{\Hypertarget{classAirport_a3f042f6434f617ddf9954adfe33e67e0}\label{classAirport_a3f042f6434f617ddf9954adfe33e67e0}} 
+void {\bfseries set\+Index} (int new\+Index)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classAirport_a4b750ead21dcec1d0621f06050783d22}\label{classAirport_a4b750ead21dcec1d0621f06050783d22}} 
+vector$<$ \mbox{\hyperlink{classFlight}{Flight}} $>$ \mbox{\hyperlink{classAirport_a4b750ead21dcec1d0621f06050783d22}{adj}}
+\begin{DoxyCompactList}\small\item\em vetor que contem todos os voos adjacentes (arestas) que saem deste aeroporto (nó) \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classAirport_aeae5e687aa86cbf63c39befb0264730a}\label{classAirport_aeae5e687aa86cbf63c39befb0264730a}} 
+\index{Airport@{Airport}!Airport@{Airport}}
+\index{Airport@{Airport}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{Airport()}{Airport()}}
+{\footnotesize\ttfamily Airport\+::\+Airport (\begin{DoxyParamCaption}\item[{string}]{code,  }\item[{string}]{name,  }\item[{string}]{city,  }\item[{string}]{country,  }\item[{double}]{latitude,  }\item[{double}]{longitude }\end{DoxyParamCaption})}
+
+
+
+construtor da classes aeroporto que funciona como um nó no nosso grafo 
+
+
+\begin{DoxyParams}{Parameters}
+{\em code} & = codigo do aeroporto \\
+\hline
+{\em name} & = nome do aeroporto \\
+\hline
+{\em city} & = cidade da localização do mesmo \\
+\hline
+{\em country} & = país onde essa cidade está situada \\
+\hline
+{\em latitude} & = primeira coordenada geográfica do mesmo \\
+\hline
+{\em longitude} & = segunda coordenada geográfica do mesmo \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classAirport_a0750d2e206b9356bbb2f1d56cd1de2fa}\label{classAirport_a0750d2e206b9356bbb2f1d56cd1de2fa}} 
+\index{Airport@{Airport}!addFlight@{addFlight}}
+\index{addFlight@{addFlight}!Airport@{Airport}}
+\doxysubsubsection{\texorpdfstring{addFlight()}{addFlight()}}
+{\footnotesize\ttfamily void Airport\+::add\+Flight (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classAirline}{Airline}}}]{airline,  }\item[{string}]{target }\end{DoxyParamCaption})}
+
+
+
+Adiciona um voo ao vetor adj de modo a que este faça parte do aeroporto em questão. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em airline} & = companhia aerea que realiza o voo \\
+\hline
+{\em target} & = aeroporto de destino \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+src/Airport.\+h\item 
+src/Airport.\+cpp\end{DoxyCompactItemize}

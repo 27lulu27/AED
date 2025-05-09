@@ -1,0 +1,273 @@
+\hypertarget{classSystem}{}\doxysection{System Class Reference}
+\label{classSystem}\index{System@{System}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSystem_a1e58a573a2fc1b99a1e5dabc11ccfb8e}\label{classSystem_a1e58a573a2fc1b99a1e5dabc11ccfb8e}} 
+void {\bfseries addingtostack} (int s1, string s2)
+\item 
+void \mbox{\hyperlink{classSystem_a6430627f89aca1a8f537e04e5402341d}{undolastaction}} (\mbox{\hyperlink{classSystem}{System}} \&system)
+\begin{DoxyCompactList}\small\item\em Remove os efeitos de qualquer a operação mais recente que tenha sido feita no contexto do system. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_a050ca327653f82ad98e4ea3ecd81b40d}\label{classSystem_a050ca327653f82ad98e4ea3ecd81b40d}} 
+bool {\bfseries checkifitsempty} ()
+\item 
+int \mbox{\hyperlink{classSystem_a08f8604d7297f75a4b0c2eb30046ff16}{currentcapacytiofaclass}} (string classid, string uccode, string type)
+\begin{DoxyCompactList}\small\item\em Função que procura na lista de todos os estudantes aqueles que pertencem a uma determinada classe. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_acbca2a5a0275a77e54d18f5f6fe0fd38}\label{classSystem_acbca2a5a0275a77e54d18f5f6fe0fd38}} 
+bool {\bfseries check\+Balance} ()
+\item 
+\mbox{\Hypertarget{classSystem_a8293cbbd15456f7a19c819bd77e7d7f4}\label{classSystem_a8293cbbd15456f7a19c819bd77e7d7f4}} 
+unordered\+\_\+map$<$ std\+::string, int $>$ {\bfseries get\+\_\+class\+Capacities} ()
+\item 
+\mbox{\Hypertarget{classSystem_ae317936c9bcf1374d61745572e0f2f8a}\label{classSystem_ae317936c9bcf1374d61745572e0f2f8a}} 
+\mbox{\hyperlink{classSystem_ae317936c9bcf1374d61745572e0f2f8a}{System}} ()
+\begin{DoxyCompactList}\small\item\em Faz a leitura dos ficheiros e armazena os seus dados. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_ac90229838b7050170ed8a08e5d27609c}\label{classSystem_ac90229838b7050170ed8a08e5d27609c}} 
+std\+::list$<$ \mbox{\hyperlink{classClass}{Class}} $>$ {\bfseries get\+\_\+classes\+\_\+system} ()
+\item 
+\mbox{\Hypertarget{classSystem_ac36da4106f49dc1af27bcfce7956ba20}\label{classSystem_ac36da4106f49dc1af27bcfce7956ba20}} 
+void {\bfseries All\+\_\+the\+\_\+students\+\_\+of\+\_\+a\+\_\+class\+\_\+alphabeticaly} (string num, string uc)
+\item 
+\mbox{\Hypertarget{classSystem_aa76a3b35030aaf55535947cb7fac4a5c}\label{classSystem_aa76a3b35030aaf55535947cb7fac4a5c}} 
+void {\bfseries add\+Class} (\mbox{\hyperlink{classClass}{Class}} \&class\+\_\+)
+\item 
+\mbox{\Hypertarget{classSystem_a579d4161b95bbbf34efb4ab6c21505a2}\label{classSystem_a579d4161b95bbbf34efb4ab6c21505a2}} 
+void {\bfseries add\+Student} (\mbox{\hyperlink{classStudent}{Student}} \&student\+\_\+)
+\item 
+\mbox{\Hypertarget{classSystem_a07b42b37bdfbf79f2716fd2edc58cc3b}\label{classSystem_a07b42b37bdfbf79f2716fd2edc58cc3b}} 
+void {\bfseries All\+\_\+the\+\_\+students\+\_\+of\+\_\+a\+\_\+class\+\_\+numeral} (string num, string uc)
+\item 
+\mbox{\Hypertarget{classSystem_a99172e6ebb427db868883c9747340852}\label{classSystem_a99172e6ebb427db868883c9747340852}} 
+string {\bfseries getstudentname} (int id)
+\item 
+\mbox{\Hypertarget{classSystem_aaa55e05ca8f69efb2e2ec455d9d23b2e}\label{classSystem_aaa55e05ca8f69efb2e2ec455d9d23b2e}} 
+void {\bfseries Schedule\+\_\+of\+\_\+a\+\_\+student} (int c1)
+\item 
+void \mbox{\hyperlink{classSystem_afadf499ca63d97e6e15055661028e90a}{Schedule\+\_\+of\+\_\+a\+\_\+\+Class}} (std\+::string id, string uc)
+\begin{DoxyCompactList}\small\item\em Mostra os dados armazenados dentro de uma classe. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_ad8ac44f69b0ef3356f6f2488226d209a}\label{classSystem_ad8ac44f69b0ef3356f6f2488226d209a}} 
+string {\bfseries extract\+\_\+\+Day\+\_\+\+Of\+\_\+\+Week} (string f)
+\item 
+\mbox{\Hypertarget{classSystem_a12d14abd2be9531603c79f05831cc83e}\label{classSystem_a12d14abd2be9531603c79f05831cc83e}} 
+int {\bfseries getstudentid} (string name)
+\item 
+\mbox{\Hypertarget{classSystem_ac4f3721beae8b06eb59448ae7eb2df85}\label{classSystem_ac4f3721beae8b06eb59448ae7eb2df85}} 
+void {\bfseries All\+\_\+the\+\_\+students\+\_\+of\+\_\+a\+\_\+uc\+\_\+numeral} (string uccode)
+\item 
+\mbox{\Hypertarget{classSystem_adb070af445ef725cb300317a78bdd0a2}\label{classSystem_adb070af445ef725cb300317a78bdd0a2}} 
+void {\bfseries All\+\_\+the\+\_\+\+Student\+\_\+of\+\_\+a\+\_\+uc\+\_\+alphabeticaly} (string uccode)
+\item 
+\mbox{\Hypertarget{classSystem_a8f88fc4b072fb51f7c944d475bfbbf48}\label{classSystem_a8f88fc4b072fb51f7c944d475bfbbf48}} 
+void {\bfseries All\+\_\+the\+\_\+students\+\_\+of\+\_\+a\+\_\+year\+\_\+alphabeticaly} (int year)
+\item 
+\mbox{\Hypertarget{classSystem_ad4760c029643b9ca6ff1469960ace3e4}\label{classSystem_ad4760c029643b9ca6ff1469960ace3e4}} 
+void {\bfseries All\+\_\+the\+\_\+students\+\_\+of\+\_\+a\+\_\+year\+\_\+numeral} (int year)
+\item 
+\mbox{\Hypertarget{classSystem_a6be5630ccc365c9261f2c7470de83442}\label{classSystem_a6be5630ccc365c9261f2c7470de83442}} 
+void {\bfseries classocuppation} (string classid, string uccode)
+\item 
+\mbox{\Hypertarget{classSystem_a3d0fc829ef60c484b639553ef70f4e8d}\label{classSystem_a3d0fc829ef60c484b639553ef70f4e8d}} 
+void {\bfseries ucocuppation} (string uccode)
+\item 
+\mbox{\Hypertarget{classSystem_ac62c3abe83c5c30f31caabd4899880f1}\label{classSystem_ac62c3abe83c5c30f31caabd4899880f1}} 
+void {\bfseries yearocuppation} (int year)
+\item 
+\mbox{\Hypertarget{classSystem_a697e9c0ffabff535ed33f90b892a025c}\label{classSystem_a697e9c0ffabff535ed33f90b892a025c}} 
+void {\bfseries ucsbystudents} ()
+\item 
+\mbox{\Hypertarget{classSystem_ab62148e44e0d2244bc66f7c2d644f7d2}\label{classSystem_ab62148e44e0d2244bc66f7c2d644f7d2}} 
+void {\bfseries students\+In\+At\+Least\+N\+\_\+\+UCs} (int n)
+\item 
+bool \mbox{\hyperlink{classSystem_af28d4483148b23bb338556c0ef5e76af}{Changingstudentsindifferentclasses}} (int studentid, string \&from\+\_\+class\+\_\+id, string \&to\+\_\+class\+\_\+id, string \&uccode)
+\begin{DoxyCompactList}\small\item\em Faz a troca caso haja dois estudantes para tal. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_aa466d289d7ac25542dbd4b28c5f3ecda}{Addingastudentinaclass}} (int idstudent, const std\+::string \&classid, const std\+::string \&uccode)
+\begin{DoxyCompactList}\small\item\em Adiciona o estudante a uma turma numa cadeira especifica se as condicoes assim o permitirem. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classSystem_a4972e29dd31f017e642f5ca02f4513cb}{Removingastudnetinaclass}} (int idstudent, const std\+::string \&classid, const std\+::string \&uccode)
+\begin{DoxyCompactList}\small\item\em Remove um estudante de uma cadeira especifica se as condicoes assim o permitirem. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_a18fd9e7a2a1df27344cd9ee58207734c}{scheduleconflict}} (string classid, string uccode, int studentid)
+\begin{DoxyCompactList}\small\item\em Verifica se há conflito entre as aulas de um aluno com a classe que ele pretende adicionar ou trocar. \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{classSystem_a26832a4661b30df8c6bb0d5ab50b1f2e}{itnotispossibletoaddmore}} (int studentid)
+\begin{DoxyCompactList}\small\item\em Função que averigua se o estudante ja excedeu o limite de classes em que ele pode estar inscrito. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classSystem_a7f8def97529461656ed44892e762ae8e}\label{classSystem_a7f8def97529461656ed44892e762ae8e}} 
+void {\bfseries changeuc} (string \&from\+\_\+uccode, int \&studentid, string \&to\+\_\+uccode)
+\item 
+\mbox{\Hypertarget{classSystem_a9ed8404f1088a9a1631ae6f07f9ee615}\label{classSystem_a9ed8404f1088a9a1631ae6f07f9ee615}} 
+void {\bfseries removeuc} (string \&uccode, int \&studentid)
+\item 
+\mbox{\Hypertarget{classSystem_a4b5121c06edf59bf1e56f6b2396c4e4c}\label{classSystem_a4b5121c06edf59bf1e56f6b2396c4e4c}} 
+bool {\bfseries adduc} (string \&uccode, int \&studentid)
+\item 
+\mbox{\Hypertarget{classSystem_a462f24c62b33acb12985f72d1528c2d9}\label{classSystem_a462f24c62b33acb12985f72d1528c2d9}} 
+void {\bfseries changeclassonly} (int \&idstudent, string \&from\+\_\+class, string \&to\+\_\+class, string \&uccode3)
+\item 
+\mbox{\Hypertarget{classSystem_aa72c03fcdf1570d175c28c0326313018}\label{classSystem_aa72c03fcdf1570d175c28c0326313018}} 
+void \mbox{\hyperlink{classSystem_aa72c03fcdf1570d175c28c0326313018}{savealterations}} ()
+\begin{DoxyCompactList}\small\item\em Salva todas as alterações feitas pelo utilizador no ficheiro destino. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classSystem_aa466d289d7ac25542dbd4b28c5f3ecda}\label{classSystem_aa466d289d7ac25542dbd4b28c5f3ecda}} 
+\index{System@{System}!Addingastudentinaclass@{Addingastudentinaclass}}
+\index{Addingastudentinaclass@{Addingastudentinaclass}!System@{System}}
+\doxysubsubsection{\texorpdfstring{Addingastudentinaclass()}{Addingastudentinaclass()}}
+{\footnotesize\ttfamily bool System\+::\+Addingastudentinaclass (\begin{DoxyParamCaption}\item[{int}]{idstudent,  }\item[{const std\+::string \&}]{classid,  }\item[{const std\+::string \&}]{uccode }\end{DoxyParamCaption})}
+
+
+
+Adiciona o estudante a uma turma numa cadeira especifica se as condicoes assim o permitirem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idstudent} & = estudante candidato \\
+\hline
+{\em classid} & = componente da turma \\
+\hline
+{\em uccode} & = componente da cadeira \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+= retorna true se a operação for um sucesso 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSystem_af28d4483148b23bb338556c0ef5e76af}\label{classSystem_af28d4483148b23bb338556c0ef5e76af}} 
+\index{System@{System}!Changingstudentsindifferentclasses@{Changingstudentsindifferentclasses}}
+\index{Changingstudentsindifferentclasses@{Changingstudentsindifferentclasses}!System@{System}}
+\doxysubsubsection{\texorpdfstring{Changingstudentsindifferentclasses()}{Changingstudentsindifferentclasses()}}
+{\footnotesize\ttfamily bool System\+::\+Changingstudentsindifferentclasses (\begin{DoxyParamCaption}\item[{int}]{studentid,  }\item[{string \&}]{from\+\_\+class\+\_\+id,  }\item[{string \&}]{to\+\_\+class\+\_\+id,  }\item[{string \&}]{uccode }\end{DoxyParamCaption})}
+
+
+
+Faz a troca caso haja dois estudantes para tal. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studentid} & \\
+\hline
+{\em from\+\_\+class\+\_\+id} & \\
+\hline
+{\em to\+\_\+class\+\_\+id} & \\
+\hline
+{\em uccode} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSystem_a08f8604d7297f75a4b0c2eb30046ff16}\label{classSystem_a08f8604d7297f75a4b0c2eb30046ff16}} 
+\index{System@{System}!currentcapacytiofaclass@{currentcapacytiofaclass}}
+\index{currentcapacytiofaclass@{currentcapacytiofaclass}!System@{System}}
+\doxysubsubsection{\texorpdfstring{currentcapacytiofaclass()}{currentcapacytiofaclass()}}
+{\footnotesize\ttfamily int System\+::currentcapacytiofaclass (\begin{DoxyParamCaption}\item[{string}]{classid,  }\item[{string}]{uccode,  }\item[{string}]{type }\end{DoxyParamCaption})}
+
+
+
+Função que procura na lista de todos os estudantes aqueles que pertencem a uma determinada classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em classid} & = turma \\
+\hline
+{\em uccode} & = numa determinada cadeira \\
+\hline
+{\em type} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSystem_a26832a4661b30df8c6bb0d5ab50b1f2e}\label{classSystem_a26832a4661b30df8c6bb0d5ab50b1f2e}} 
+\index{System@{System}!itnotispossibletoaddmore@{itnotispossibletoaddmore}}
+\index{itnotispossibletoaddmore@{itnotispossibletoaddmore}!System@{System}}
+\doxysubsubsection{\texorpdfstring{itnotispossibletoaddmore()}{itnotispossibletoaddmore()}}
+{\footnotesize\ttfamily bool System\+::itnotispossibletoaddmore (\begin{DoxyParamCaption}\item[{int}]{studentid }\end{DoxyParamCaption})}
+
+
+
+Função que averigua se o estudante ja excedeu o limite de classes em que ele pode estar inscrito. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em studentid} & = estudante em questão \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSystem_a4972e29dd31f017e642f5ca02f4513cb}\label{classSystem_a4972e29dd31f017e642f5ca02f4513cb}} 
+\index{System@{System}!Removingastudnetinaclass@{Removingastudnetinaclass}}
+\index{Removingastudnetinaclass@{Removingastudnetinaclass}!System@{System}}
+\doxysubsubsection{\texorpdfstring{Removingastudnetinaclass()}{Removingastudnetinaclass()}}
+{\footnotesize\ttfamily void System\+::\+Removingastudnetinaclass (\begin{DoxyParamCaption}\item[{int}]{idstudent,  }\item[{const std\+::string \&}]{classid,  }\item[{const std\+::string \&}]{uccode }\end{DoxyParamCaption})}
+
+
+
+Remove um estudante de uma cadeira especifica se as condicoes assim o permitirem. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em idstudent} & = estudante candidato \\
+\hline
+{\em classid} & = componente da turma \\
+\hline
+{\em uccode} & = componente da cadeira \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSystem_afadf499ca63d97e6e15055661028e90a}\label{classSystem_afadf499ca63d97e6e15055661028e90a}} 
+\index{System@{System}!Schedule\_of\_a\_Class@{Schedule\_of\_a\_Class}}
+\index{Schedule\_of\_a\_Class@{Schedule\_of\_a\_Class}!System@{System}}
+\doxysubsubsection{\texorpdfstring{Schedule\_of\_a\_Class()}{Schedule\_of\_a\_Class()}}
+{\footnotesize\ttfamily void System\+::\+Schedule\+\_\+of\+\_\+a\+\_\+\+Class (\begin{DoxyParamCaption}\item[{std\+::string}]{id,  }\item[{string}]{uc }\end{DoxyParamCaption})}
+
+
+
+Mostra os dados armazenados dentro de uma classe. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & = id da classe \\
+\hline
+{\em uc} & = uc dessa classe \\
+\hline
+\end{DoxyParams}
+\mbox{\Hypertarget{classSystem_a18fd9e7a2a1df27344cd9ee58207734c}\label{classSystem_a18fd9e7a2a1df27344cd9ee58207734c}} 
+\index{System@{System}!scheduleconflict@{scheduleconflict}}
+\index{scheduleconflict@{scheduleconflict}!System@{System}}
+\doxysubsubsection{\texorpdfstring{scheduleconflict()}{scheduleconflict()}}
+{\footnotesize\ttfamily bool System\+::scheduleconflict (\begin{DoxyParamCaption}\item[{string}]{classid,  }\item[{string}]{uccode,  }\item[{int}]{studentid }\end{DoxyParamCaption})}
+
+
+
+Verifica se há conflito entre as aulas de um aluno com a classe que ele pretende adicionar ou trocar. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em classid} & = id da classe nova/alterada \\
+\hline
+{\em uccode} & = uccode da classe nova/alterada \\
+\hline
+{\em studentid} & = aluno em questão \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+\mbox{\Hypertarget{classSystem_a6430627f89aca1a8f537e04e5402341d}\label{classSystem_a6430627f89aca1a8f537e04e5402341d}} 
+\index{System@{System}!undolastaction@{undolastaction}}
+\index{undolastaction@{undolastaction}!System@{System}}
+\doxysubsubsection{\texorpdfstring{undolastaction()}{undolastaction()}}
+{\footnotesize\ttfamily void System\+::undolastaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{classSystem}{System}} \&}]{system }\end{DoxyParamCaption})}
+
+
+
+Remove os efeitos de qualquer a operação mais recente que tenha sido feita no contexto do system. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em system} & \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/System.\+h\item 
+src/System.\+cpp\end{DoxyCompactItemize}
